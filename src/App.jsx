@@ -5,6 +5,7 @@ import Home from "./components/home/Home"
 import About from "./components/about/About"
 import Skills from "./components/skills/Skills"
 import Services from "./components/services/Services"
+import Qualification from "./components/qualification/Qualification"
 import Footer from "./components/footer/Footer"
 import ScrollUp from "./components/ScrollUp/ScrollUp"
 
@@ -17,6 +18,7 @@ const App = () => {
         <About />
         <Skills />
         <Services />
+        <Qualification />
       </main>
 
       <Footer />
