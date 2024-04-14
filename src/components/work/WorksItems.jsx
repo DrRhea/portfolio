@@ -6,8 +6,8 @@ const WorksItems = ({item}) => {
       <img src={item.image} alt="" className="work__img"/>
       <h3 className="work__title">{item.title}</h3>
       <a href={item.link} className="work__button" target={item.link !== "#portfolio" ? "_blank" : ""}>
-        {item.button}
-        <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        {item.link !== "#portfolio" ? item.button : ""}
+        <i className={item.link !== "#portfolio" ? "bx bx-right-arrow-alt work__button-icon" : ""}></i>
       </a>
     </div>
   )
