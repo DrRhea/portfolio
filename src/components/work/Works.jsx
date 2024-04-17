@@ -10,14 +10,15 @@ const Works = () => {
   const [active, setActive] =  useState(0)
 
   useEffect(() => {
-    if(item.name == "all") {
-      setProjects(projectsData)
+    let sortedProjects = [];
+    if(item.name === "all") {
+      sortedProjects = [...projectsData]; // Salin array untuk menghindari mutasi langsung
     } else {
-      const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name
-      })
-      setProjects(newProjects)
+      sortedProjects = projectsData.filter((project) => project.category.toLowerCase() === item.name);
     }
+    // Mengurutkan projects berdasarkan id dari yang terakhir ke yang pertama
+    sortedProjects.sort((a, b) => b.id - a.id);
+    setProjects(sortedProjects);
   }, [item])
 
   const handleClick = (e, index) => {

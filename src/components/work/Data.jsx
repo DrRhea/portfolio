@@ -13,34 +13,6 @@ export const projectsData = [
     link: "https://github.com/DrRhea/feedback-app",
     button: "Source Code"
   },
-  /* {
-    id: 2,
-    image: Work2,
-    title: "App movil",
-    category: "web",
-    link: "#portfolio",
-  },
-  {
-    id: 3,
-    image: Work3,
-    title: "Brand design",
-    category: "UI",
-    link: "#portfolio",
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "mobile",
-    link: "#portfolio",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web design",
-    category: "web",
-    link: "#portfolio",
-  }, */
 ];
 export const projectsNav = [
   {
