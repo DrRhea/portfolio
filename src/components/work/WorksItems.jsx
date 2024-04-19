@@ -3,7 +3,9 @@ import React from 'react'
 const WorksItems = ({item}) => {
   return (
     <div className="work__card" key={item.id}>
-      <img src={item.image} alt="" className="work__img"/>
+      {/* <a href={item.link} target={item.link !== "#portfolio" ? "_blank" : ""}> */}
+        <img src={item.image} alt="" className="work__img"/>
+      {/* </a> */}
       <h3 className="work__title">{item.title}</h3>
       <a href={item.link} className="work__button" target={item.link !== "#portfolio" ? "_blank" : ""}>
         {item.link !== "#portfolio" ? item.button : ""}

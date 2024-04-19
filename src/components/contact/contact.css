@@ -60,7 +60,7 @@
   transition: .3s;
 }
 
-.contact__button:hover .contact-button-icon{
+.contact__button:hover .contact-button-icon {
   transform: translate(.25rem);
 }
 

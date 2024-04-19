@@ -10,7 +10,7 @@ export const projectsData = [
     image: Work1,
     title: "Feedback App",
     category: "web",
-    link: "https://github.com/DrRhea/feedback-app",
+    link: "https://github.com/DrRhea/feedback-app/",
     button: "Source Code"
   },
   {
@@ -20,6 +20,14 @@ export const projectsData = [
     category: "web",
     link: "https://jagad.vercel.app/",
     button: "See Project"
+  },
+  {
+    id: 3,
+    image: Work3,
+    title: "KitSakit Website",
+    category: "web",
+    link: "https://github.com/DrRhea/kitsakit/",
+    button: "Source Code"
   },
 ];
 export const projectsNav = [
